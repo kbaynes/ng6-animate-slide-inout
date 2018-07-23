@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <img width="100" alt="Kevin Baynes" src="../assets/KB.png">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <p>Click the Toggle State button to slide the panel.</p>
+  <hr width="50%" />
+  <div class="controls">
+      <div style="padding:10px;">State = {{animatedComponent.state}}</div>
+      <button (click)="animatedComponent.toggleState()" style="padding:10px; cursor: pointer">Toggle State</button>
+    </div>
+  <app-animated #animatedComponent></app-animated>
+</div>
+
+
