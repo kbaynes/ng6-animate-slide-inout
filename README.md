@@ -4,6 +4,11 @@ using Angular 6 Animations.
 
 ## To Run
 Clone the repo
+
 `cd MyApp`
+
 `npm install`
+
 `ng serve -o`
+
+##### Kevin Baynes - KevinBaynes.com
